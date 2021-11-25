@@ -37,5 +37,5 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
+  }
 }
