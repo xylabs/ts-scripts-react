@@ -5,7 +5,7 @@
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/node_modules": true,
-    "**/bin": false,
+    "**/bin": false
   },
   "editor.formatOnSave": true,
   "editor.quickSuggestions": true,
