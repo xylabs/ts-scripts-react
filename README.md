@@ -8,22 +8,22 @@
 
 ## Required Tools
 
-- [Visual Studio Code](https://code.visualstudio.com)
-- [NPM](https://www.npmjs.com)
-- [Git](https://git-scm.com/)
-- [Yarn](https://yarnpkg.com/)
-- [ESLint](https://eslint.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Depcheck](https://www.npmjs.com/package/depcheck)
-- [Rollup](https://rollupjs.org)
-- [TS-Prune](https://www.npmjs.com/package/ts-prune)
-- [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+-   [Visual Studio Code](https://code.visualstudio.com)
+-   [NPM](https://www.npmjs.com)
+-   [Git](https://git-scm.com/)
+-   [Yarn](https://yarnpkg.com/)
+-   [ESLint](https://eslint.org)
+-   [TypeScript](https://www.typescriptlang.org)
+-   [Depcheck](https://www.npmjs.com/package/depcheck)
+-   [Rollup](https://rollupjs.org)
+-   [TS-Prune](https://www.npmjs.com/package/ts-prune)
+-   [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
 
 ## Global Configuration
 
-- Install Visual Studio Code (vsCode)
-- Install NPM
-- Install Git
+-   Install Visual Studio Code (vsCode)
+-   Install NPM
+-   Install Git
 
 ## Project Scripts
 
@@ -65,7 +65,7 @@
 
 ## Maintainers
 
-- [Arie Trouw](https://arietrouw.com) ([Github](https://github.com/arietrouw))
+-   [Arie Trouw](https://arietrouw.com) ([Github](https://github.com/arietrouw))
 
 ## License
 
@@ -73,6 +73,6 @@ See the [LICENSE](LICENSE) file for license details
 
 ## Credits
 
-Made with 🔥 and ❄️ by [XY Labs](https://xylabs.com)
+[Made with 🔥 and ❄️ by XY Labs](https://xylabs.com)
 
 [logo]: https://cdn.xy.company/img/brand/XYPersistentCompany_Logo_Icon_Colored.svg

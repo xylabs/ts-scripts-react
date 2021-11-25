@@ -1,54 +1,62 @@
 {
-  "name": "@xylabs/ts-scripts-react",
-  "homepage": "https://xylabs.com",
+  "author": {
+    "email": "support@xylabs.com",
+    "name": "XY Labs Development Team",
+    "url": "https://xylabs.com"
+  },
+  "bin": {
+    "build": "bin/build.js",
+    "compile": "bin/compile.js",
+    "xylabs-build": "bin/build.js",
+    "xylabs-compile": "bin/compile.js"
+  },
   "bugs": {
-    "url": "https://github.com/xylabs/ts-scripts-react/issues",
-    "email": "support@xylabs.com"
+    "email": "support@xylabs.com",
+    "url": "https://github.com/xylabs/ts-scripts-react/issues"
+  },
+  "dependencies": {
+    "@xylabs/ts-scripts": "^1.0.22"
   },
   "description": "TypeScript project scripts for React",
-  "author": {
-    "name": "XY Labs Development Team",
-    "url": "https://xylabs.com",
-    "email": "support@xylabs.com"
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@xylabs/eslint-config": "^2.1.4",
+    "eslint": "^8",
+    "prettier": "^2.5",
+    "typescript": "^4"
   },
-  "license": "LGPL-3.0",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xylabs/ts-scripts-react.git"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
+  "homepage": "https://xylabs.com",
   "keywords": [
     "xylabs",
     "react",
     "utility",
     "typescript"
   ],
-  "version": "1.0.5",
-  "sideEffects": false,
-  "dependencies": {
-    "@xylabs/ts-scripts": "^1.0.11"
+  "license": "LGPL-3.0",
+  "name": "@xylabs/ts-scripts-react",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   },
-  "bin": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xylabs/ts-scripts-react.git"
+  },
   "scripts": {
-    "build": "rm -r -f bin && yarn deps && yarn lint && yarn lint-pkg && yarn compile && yarn compile",
-    "compile": "tsc -p ./tsconfig.json",
-    "deploy": "yarn build && yarn version --patch && yarn publish",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.json ./src",
-    "lint-pkg": "npmPkgJsonLint .",
-    "fix": "eslint --ext .js,.jsx,.ts,.tsx,.json ./src --fix",
-    "cycle": "NODE_ENV=--max-old-space-size=8092 eslint --rule 'import/no-cycle: [1, { maxDepth: 10 }]' ./src",
+    "build": "rm -r -f bin && yarn deps && yarn lint && yarn lint-pkg && yarn compile",
     "clean": "rm -f *.tsbuildinfo && rm -r -f ./bin",
-    "reinstall": "rm -r -f ./node_modules && rm -f ./yarn.lock && rm -f ./yarn-error.log && yarn install && yarn outdated",
+    "compile": "tsc -p ./tsconfig.json",
+    "cycle": "eslint --rule 'import/no-cycle: [1, { maxDepth: 10 }]' ./src",
     "dead": "yarn ts-prune",
+    "deploy": "yarn build && yarn version --patch && yarn publish",
+    "deps": "yarn depcheck",
+    "fix": "eslint . --fix",
+    "lint": "eslint .",
+    "lint-pkg": "npmPkgJsonLint .",
+    "reinstall": "rm -r -f ./node_modules && rm -f ./yarn.lock && rm -f ./yarn-error.log && yarn install && yarn outdated",
     "up": "yarn ncu",
-    "updo": "yarn install && yarn upgrade && yarn ncu -u && yarn reinstall",
-    "deps": "yarn depcheck"
+    "updo": "yarn install && yarn upgrade && yarn ncu -u && yarn reinstall"
   },
-  "devDependencies": {
-    "@types/node": "^16.11.1",
-    "@xylabs/eslint-config": "^2.0.24"
-  }
+  "sideEffects": false,
+  "version": "1.0.5"
 }
