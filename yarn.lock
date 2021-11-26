@@ -456,9 +456,9 @@
     remark-preset-lint-markdown-style-guide "^5.1.1"
 
 "@xylabs/ts-scripts@^1.0.22":
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/@xylabs/ts-scripts/-/ts-scripts-1.0.22.tgz#1bd1c80a31fe44d1c408c3a535bbab77d21d39ca"
-  integrity sha512-cSAGn23Ic514DIpRzJFC627loKN/YuqwNjqKfjzIeTPP3Pe6bStKbXdRzJCn3FANEsqJFEwzw70luTE5s812Ng==
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@xylabs/ts-scripts/-/ts-scripts-1.0.23.tgz#060e8b084cd528ff1b0591079a0391cfed3aeb1a"
+  integrity sha512-ckVxq/GKFjpsNJCaAnTtb26l0BWOe2hkC1r7rpVYAKlcfvNMwSB4WVwFYgcYXFmd1UN1l/hvS6sSJCSj6zdbXg==
   dependencies:
     "@xylabs/eslint-config" "^2.1.4"
     depcheck "^1.4.2"
