@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "@xylabs/ts-scripts": "^1.0.41",
-    "source-map-explorer": "^2.5.2"
+    "source-map-explorer": "^2.5.2",
+    "sitemap": "^7.1.1"
   },
   "description": "TypeScript project scripts for React",
   "devDependencies": {
