@@ -5,12 +5,14 @@
     "url": "https://xylabs.com"
   },
   "bin": {
+    "analyze": "bin/analyze.js",
     "build": "bin/build.js",
     "build-ci": "bin/build-ci.js",
     "eject": "bin/eject.js",
     "sitemap": "bin/sitemap.js",
     "start": "bin/start.js",
     "test": "bin/test.js",
+    "xylabs-analyze": "bin/analyze.js",
     "xylabs-build": "bin/build.js",
     "xylabs-build-ci": "bin/build-ci.js",
     "xylabs-eject": "bin/eject.js",
@@ -23,7 +25,8 @@
     "url": "https://github.com/xylabs/ts-scripts-react/issues"
   },
   "dependencies": {
-    "@xylabs/ts-scripts": "^1.0.41"
+    "@xylabs/ts-scripts": "^1.0.41",
+    "source-map-explorer": "^2.5.2"
   },
   "description": "TypeScript project scripts for React",
   "devDependencies": {
