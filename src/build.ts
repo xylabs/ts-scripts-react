@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-import { execFileSync } from 'child_process'
+import { execSync } from 'child_process'
 console.log(`Build [${process.cwd()}]`)
-execFileSync('yarn', ['deps'], { stdio: 'inherit' })
-execFileSync('yarn', ['lint'], { stdio: 'inherit' })
-execFileSync('yarn', ['compile'], { stdio: 'inherit' })
+execSync('yarn version --patch --no-git-tag-version', { stdio: 'inherit' })
+execSync('yarn build-ci', { stdio: 'inherit' })
