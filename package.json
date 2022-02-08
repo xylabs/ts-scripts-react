@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@xylabs/ts-scripts": "^1.0.41",
-    "source-map-explorer": "^2.5.2",
-    "sitemap": "^7.1.1"
+    "sitemap": "^7.1.1",
+    "source-map-explorer": "^2.5.2"
   },
   "description": "TypeScript project scripts for React",
   "devDependencies": {
@@ -58,5 +58,5 @@
     "compile": "tsc -p ./tsconfig.build.json"
   },
   "sideEffects": false,
-  "version": "1.0.8"
+  "version": "1.0.9"
 }
