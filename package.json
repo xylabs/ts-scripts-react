@@ -57,6 +57,6 @@
     "compile": "tsc -p ./tsconfig.build.json"
   },
   "sideEffects": false,
-  "version": "1.0.9",
+  "version": "1.0.10",
   "packageManager": "yarn@3.2.0"
 }
