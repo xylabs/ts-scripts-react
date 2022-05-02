@@ -1,4 +1,8 @@
 ignores: [
   "@xylabs/ts-scripts",
-  "npm-package-json-lint-config-default"
+  "sitemap",
+  "source-map-explorer",
+  "npm-package-json-lint-config-default",
+  "react-scripts",
+  "ts-node"
 ]
